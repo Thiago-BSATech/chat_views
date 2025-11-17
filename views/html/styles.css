@@ -410,3 +410,32 @@ body {
     transform: translateY(0);
   }
 }
+
+/* Caixa central mais escura e com contraste */
+.center-box {
+  background: rgba(30, 30, 60, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 3rem 2rem;
+  border-radius: 22px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.45);
+  max-width: 480px;
+  width: 90%;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Ajuste de cor das letras */
+.presentation-container {
+  color: #ffffff !important;
+}
+
+.title {
+  color: #ffffff !important;
+  text-shadow: 0 0 12px #000000aa;
+}
+
+.subtitle {
+  color: #e8e8e8 !important;
+  text-shadow: 0 0 8px #00000075;
+}
+
